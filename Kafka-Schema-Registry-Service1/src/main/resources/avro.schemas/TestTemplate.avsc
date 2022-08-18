@@ -1,0 +1,10 @@
+{
+     "type": "record",
+     "namespace": "gmc.learning.kafka.avro.schema",
+     "name": "TestTemplate",
+     "version": "1",
+     "fields": [
+       { "name": "id", "type": "string", "doc": "Id of the filed" },
+       { "name": "message", "type": "string", "doc": "message" }
+     ]
+}
